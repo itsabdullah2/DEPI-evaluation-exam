@@ -1,0 +1,10 @@
+=> Answers of Question one
+    1 - Void elements
+    2 - "em" takes its value from the parent element, "rem" takes its value from the html, "px" it's a static unit
+
+    3 - "button" Can contain any HTML content within it, it's flexible. "input" not flexible working with, I can use it in a simple situation, at the end it's a self closing tag element
+
+    4- "Hoisting" is a javascript mechanism where variables and function declarations move to the top of their scope before code execution.
+    "Event loop" Javascript known as a single-threaded language, "Event Loop" JavaScript is known as a single-threaded language,
+
+    5 - "for .. in" is used to iterate over the keys of an object, while "for .. of" is used to iterate over the values of an object.

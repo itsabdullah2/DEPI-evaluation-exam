@@ -1,0 +1,34 @@
+  => Answers of Question one
+    1 - Void elements
+    2 - "em" takes its value from the parent element, "rem" takes its value from the html, "px" it's a static unit
+
+    3 - "button" Can contain any HTML content within it, it's flexible. "input" not flexible working with, I can use it in a simple situation, at the end it's a self closing tag element
+
+    4- "Hoisting" is a javascript mechanism where variables and function declarations move to the top of their scope before code execution.
+    "Event loop" Javascript known as a single-threaded language, "Event Loop" JavaScript is known as a single-threaded language,
+
+    5 - "for .. in" is used to iterate over the keys of an object, while "for .. of" is used to iterate over the values of an object.
+
+  => Answers of Question Two
+    1 - Expected output of console.log(d.greeting) is => Hello. Because "b" and "c" refers to the same object in the memory
+    
+    2 - Expected output of console.log(y) is => 50. Because (Numbers, Strings, Booleans, Undefined, null) are primitive types, when I assign a primitive value to a variable, I just creating a new copy of that value and store it to a different location in memory.
+
+    3 - Expected output of console.log(a.length) is => 101. I can add new element to any valid index of an array. We can imagine that the array will be like that ["dog", "cat", "hen", <96 element>, "fox"]
+
+    4 - Expected output of console.log(shape.diameter()), console.log(shape.perimeter()) is => 20, NaN
+
+    5 - Expected output of sum(10, 20) is 30 if I console it. About thd diff(10, 20) the answer is => ReferenceError: Cannot access 'diff' before initialization
+
+    6 - Expected output of myFunc is => Object the "...args" is called "rest parameters" and it's a special syntax to represent an undefined number of arguments as an object.
+
+    7 - Expected output of console.log(typeof(sum)) is => Number.
+
+  => Answers of Question Three
+    1 - 
+  => Answers of Question Four
+
+  // Links for understanding the Event loop
+    - https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/
+    - https://gemini.google.com/app/e9edce7caeb5d00d
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop
