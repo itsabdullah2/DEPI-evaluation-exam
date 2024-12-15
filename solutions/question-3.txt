@@ -1,12 +1,85 @@
 => Answers of Question Three
-    1 - 
-    2 -
-    3 - function areAnagrams(str1, str2) {
-         for ( let i = 0; i <= str2.length; i++) {
-if (str1.includes(str2[i]) && str1.length === str2.length) {
-return true
-} else {
-return false
+    1 - paragraph 3 will take the color blue, and paragraph 2 will take the color beige
+
+    2 - <div>
+            <h2>Mailing Address</h2>
+            <address>
+                6410 Via Real <br />
+                Carpinteria, CA 93013 <br />
+                <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+            </address>
+        </div>
+
+    3 - function araAnagrams(word1, word2) {
+  // Check the length of both words
+  if (word1.length !== word2.length) {
+    throw new Error(`Word ${word1} and ${word2} are not anagrams`)
+  }
+
+  const count = {};
+
+  for (let i = 0; i < word1.length; i++) {
+    const char = word1[i];
+    // if the value is there then add 1 otherwise return 1
+    count[char] = (count[char] || 0) + 1;
+  }
+
+  for (let i = 0; i < word2.length; i++) {
+    const char = word2[i];
+    if (!count[char]) return false; // Character not found in word1
+    count[char]--;
+  }
+  return true;
 }
-         }
+
+    4 - function calculateMean(numbers) {
+  if (numbers.length === 0) return;
+
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  }
+
+  const mean = sum / numbers.length;
+  return mean;
 }
+
+    5 - function checkTheSeason(userInput) {
+  const objOfSeasons = {
+    winter: ['december', 'january', 'february', 'dec', 'jan', 'feb'],
+    spring: ['march', 'april', 'may', 'mar', 'apr', 'may'],
+    summer: ['june', 'july', 'august', 'jun', 'jul', 'aug'],
+    autumn: ['september', 'october', 'november', 'sep', 'oct', 'nov'],
+  };
+
+  for (let season in objOfSeasons) {
+    for (let month of objOfSeasons[season]) {
+      if (userInput.toLowerCase() === month) return season;
+    }
+  }
+}
+
+    6 - function factorial(n) {
+            if (n === 0) return 1;
+
+            return n * factorial(n - 1);
+        }
+
+    7 - function duplicateArr(arr) {
+            return [...arr, ...arr];
+        }
+
+    8 - function emptyArr(arr) {
+        // return arr.length = 0
+
+        // return arr = []
+
+        // return {
+        //   result: arr.splice(0, arr.length), // output an array of deleted element
+        //   length: arr.length, // output 0
+        // };
+        
+        // while (arr.length > 0) {
+        //   arr.pop();
+        // }
+        }

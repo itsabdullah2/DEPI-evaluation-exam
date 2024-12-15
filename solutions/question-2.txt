@@ -1,14 +1,14 @@
 => Answers of Question Two
     1 - Expected output of console.log(d.greeting) is => Hello. Because "b" and "c" refers to the same object in the memory
     
-    2 - Expected output of console.log(y) is => 50. Because (Numbers, Strings, Booleans, Undefined, null) are primitive types, when I assign a primitive value to a variable, I just creating a new copy of that value and store it to a different location in memory.
+    2 - Expected output of console.log(y) is => 50. Because (Numbers, Strings, Booleans, Undefined, null) are primitive types.
 
     3 - Expected output of console.log(a.length) is => 101. I can add new element to any valid index of an array. We can imagine that the array will be like that ["dog", "cat", "hen", <96 element>, "fox"]
 
     4 - Expected output of console.log(shape.diameter()), console.log(shape.perimeter()) is => 20, NaN
 
-    5 - Expected output of sum(10, 20) is 30 if I console it. About thd diff(10, 20) the answer is => ReferenceError: Cannot access 'diff' before initialization
+    5 - Expected output of sum(10, 20) is 30. About the diff(10, 20) the answer is => ReferenceError: Cannot access 'diff' before initialization
 
-    6 - Expected output of myFunc is => Object the "...args" is called "rest parameters" and it's a special syntax to represent an undefined number of arguments as an object.
+    6 - Expected output of myFunc is => Object
 
     7 - Expected output of console.log(typeof(sum)) is => Number.

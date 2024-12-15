@@ -1,1 +1,27 @@
 => Answers of Question Four
+  1- 
+    html code:
+    <div class="container">
+      <h1>Hide + Show Content in JavaScript</h1>
+
+      <div class="btns">
+        <button id="show">Show</button>
+        <button id="hide">Hide</button>
+      </div>
+
+      <p class="paragraph">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      </p>
+    </div>
+
+    javascript code:
+    const showBtn = document.getElementById('show');
+    const hideBtn = document.getElementById('hide');
+    const content = document.querySelector('.paragraph');
+
+    showBtn.addEventListener('click', () => {
+      content.style.display = 'block';
+    });
+    hideBtn.addEventListener('click', () => {
+      content.style.display = 'none';
+    });
